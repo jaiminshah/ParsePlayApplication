@@ -1,0 +1,4 @@
+rootProject.name = 'ParsePlayApplication'
+include ':app', ':ParseLoginUI', ':facebook-sdk:facebook'
+project(':ParseLoginUI').projectDir = new File('app/libs/ParseLoginUI')
+project(':facebook-sdk:facebook').projectDir = new File('app/libs/facebook-sdk/facebook')
